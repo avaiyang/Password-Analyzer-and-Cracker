@@ -5,7 +5,7 @@ def wordlist():
     y=[]
     
     for line in inp.read().splitlines():
-        y.append(line)                          #to assign the words from the wordlist file to a list y
+        y.append(line)                          #to assign the words from the wordlist file to list y
     return(y)
 
 def password():
